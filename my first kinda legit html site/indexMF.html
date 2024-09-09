@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="author" content="Joshua Hodgson">
+    <meta name="description" content="Josh's book store">
+
+    <title> Josh's Book store</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+/Users/josh/html/my first kinda legit html site/contact.html
+<body>
+<header>
+        <h1 id="TOP">Josh's bookstore</h1>
+
+    
+        
+    <!--navagation menu-->
+    <nav>
+        <ul>
+            <li><a href="#ABT">About Josh's bookstore</a></li>
+            <li><a href="#PRICE">Price of books</a></li>
+            <li><a href="hours.html">Bookstore hours</a></li>
+            <li><a href="contact.html">Contact Joshua</a></li>
+        </ul>
+    </nav>
+
+    <!--image-->
+    <figure>
+        <img src="supercoolbookstore.jpeg" alt="This is a picture of my super cool bookstore" title="My bookstore">
+        <figcaption>This is my bookstore</figcaption>
+    </figure>
+</header>
+<hr>
+    
+<!--about section-->
+<main>
+    <article id="ABT"> 
+        <h2>About <abbr title="Joshua's bookstore">JBS</abbr></h2>
+        <p>
+            <abbr title="Joshua's bookstore">JBS</abbr> was founded in <time datetime="2022">2022</time>. 
+            It was founded because I really <strong>love books</strong>. No really I really love books
+            <em>a lot</em>. I hope you have a great time checking out the many books in this awesome store!
+             &#128218; &#128218; &#128218;
+        </p>
+
+        <aside>
+            <h3>BOOK TRIVA TIME</h3>
+            <details>
+                <summary> Does Joshua actually really really like books? </summary>
+                <p>Yes of course, silly!</p>
+            </details>
+        </aside>
+    </article>
+    <hr>
+
+    <article id="PRICE">
+        <table>
+            <caption>Book costs</caption> 
+
+            <thead>
+                <tr>
+                    <th>Books</th> 
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <th scope="row" rowspan="3">Vintage</th>
+                    <td>1</td>
+                    <td>$3.50</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>$4.50</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>$5.50</td>
+                </tr>
+    
+                <tr>
+                    <th scope="row" rowspan="3">New</th>
+                    <td>1</td>
+                    <td>$7.00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>$12.00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>$15.00</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <td colspan="3">All books come with a free bookmark</td>
+            </tfoot>
+        </table>
+
+        <p><a href="#TOP">Back to top</a></p>
+
+    </article>
+
+</main>
+<hr>
+
+<footer>
+    <p>Copyright &copy; Joshua Hodgson 2022</p>
+</footer>
+   
+
+</body>
+
+</html>

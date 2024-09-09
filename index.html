@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+    
+    <head>
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+        <title>Super cool houses dot com</title>
+
+        <p id="TOP">we at the top, <a href="#BOT">click</a> right there to go to the bottom</p>
+
+        <!-- refrence the css style sheet-->
+        <link rel="stylesheet" href="style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     </head>
+
+    <body>
+        <h1> My First Heading. wow cool color</h1>
+        <br>
+
+        <!-- when you hover over the paragraph the title shows up-->
+        <p title="whatchu lookin at"> My first paragraph. wow cool color</p>
+        <br>
+
+        <p>to see more <span>cool</span> houses, click on the picture</p>
+        
+        <!--this image is a link to more cool houses-->
+        <a href="https://www.pinterest.com/abymerrill/cool-houses/" target="_blank">
+            <!--this image is in the same folder so i just need the name-->
+            <img src="27cool house.jpg" alt= "check out this sick ass house" title="cool house, right?"> 
+        </a>
+
+        <p> wow that <span class="house">house</span> is pretty darn tootin <em>cool</em></p>
+        
+        <!-- this creates a link to an email address-->
+        <p><a href="mailto:joshhodg8@gmail.com">yooo im mad busy, shoot me an email</a> </p>
+
+        <!--this image is not in the folder so i have to use the path-->
+        <img src="/Users/josh/Desktop/film scans/scan7-potra 400 a1/32lights on street.jpg">
+        <br>
+
+        <!--pretty awesome table-->
+        <table style="width:100%">
+            <caption>All about houses</caption>
+
+            <tr style="height:200px">
+                <th> How many houses are cool?</th>
+                <th> Are all houses cool? </th>
+                <th> Who took these awesome pics </th>
+            </tr>
+
+            <tr>
+                <td>Very few</td>
+                <td>No</td>
+                <td>I did</td>
+            </tr>
+            <tr>
+                <td>not a lot</td>
+                <td>nope nope nope</td>
+                <td>joshua hodgson (aka jmoney aka the best)</td>
+            </tr>
+            <tr>
+                <td>very few</td>
+                <td>hell nah</td>
+                <td>me, silly</td>
+            </tr>
+        </table>
+
+        <!--list-->
+        <dl>
+            <dt>What houses are cool?</dt>
+            <dd>- looks</dd>
+            <dd>- location</dd>
+
+            <dt>Wow these are some cool houses</dt>
+            <dd>- yes i know</dd>
+            <dd>- its obvious</dd>
+        </dl>
+
+        <iframe src="iframe1.html" name="iframe1" height="800" width="1000"></iframe>
+
+        <p><a href="https://www.elliotterwitt.com/color" target="iframe1">clicky here</a></p>
+
+        <p id="BOT">this is the bottom of the page, <a href="#TOP">click</a> to jump to the top of the page</p>
+
+
+        <!--some javascript-->
+        <script>
+            function myfunction() {
+                document.getElementById("button1").innerHTML = "Wow it worked, now we're stuck like this..."
+            }
+        </script>
+
+        <button type="button" onclick="myfunction()"> clicky on THIS </button>
+
+        <p id="button1"> lets see if this works</p>
+    </body>
+
+</html>
